@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
+
 
 # Memuat model yang telah disimpan dengan exception handling
 model = None
